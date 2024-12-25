@@ -52,3 +52,46 @@ header h1 {
     color: #666;
     line-height: 1.5;
 }
+
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 20px; 
+        padding: 10px;
+    }
+
+    .services-container {
+        padding: 10px; 
+        gap: 10px; 
+    }
+
+    .service-card {
+        padding: 15px; 
+    }
+
+    .service-card h2 {
+        font-size: 16px; 
+    }
+
+    .service-card p {
+        font-size: 13px; 
+    }
+
+    .service-card .icon {
+        font-size: 36px; 
+    }
+}
+
+
+@media (max-width: 400px) {
+    header h1 {
+        font-size: 18px; 
+    }
+
+    .service-card p {
+        font-size: 12px; 
+    }
+
+    .service-card .icon {
+        font-size: 32px; 
+    }
+}
